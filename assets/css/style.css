@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(76, 47, 104);
+    font-size: 25px;
+    color: white;
+}
+
+header {
+    background-color: aquamarine;
+    padding-top: 20px;
+    border-bottom: -40px;
+    color: black;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 30px 0px -30px 5%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end
+}
+
+nav ul li {
+    font-size: 30px;
+    padding: 10px;
+    margin: -30px 50px 30px;
+    background-color: aliceblue;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+figure {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portrait {
+    width: 7.5%;
+    margin: 0% 5%;
+    justify-content: flex-start;
+    border: 10px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.backgroundPic {
+    width: 100%;
+    padding: -10% 0% 0% 10%;
+    border: 5px solid black;
+}
+
+h2 {
+    font-size: 70px;
+    font-weight: 900px;
+    color: aqua;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 15px;
+}
+
+h3 {
+    color: rgb(192, 12, 12);
+    font-size: 40px;
+    background-color: aquamarine;
+    border: 5px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 47.5%;
+}
+
+aside {
+    margin: 5% 0% 0% 5%;
+    padding: 20px;
+    clear: both;
+    width: 25%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 60%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.bigProject {
+    width: 100%;
+}
+
+.mediumProject {
+    width: 50%;
+}
+
+section ul {
+    display: flex;
+    flex-direction: column;
+}
+
+section ul li {
+    padding: 5%;
+}
+
