@@ -72,7 +72,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 47.5%;
+    width: 100%;
 }
 
 aside {
@@ -101,8 +101,35 @@ section {
     width: 100%;
 }
 
+.bigProject:hover {
+    border: 5px red solid;
+    border-radius: 60px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+div {
+    width: 47.5%;
+    border: 5px;   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flush {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
 .mediumProject {
-    width: 50%;
+    width: 100%;
+}
+
+.mediumProject:hover {
+    border: 5px red solid;
+    border-radius: 60px;
+    box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 section ul {
@@ -113,4 +140,52 @@ section ul {
 section ul li {
     padding: 5%;
 }
+
+section ul a {
+    color: white;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 992px) {
+
+    nav ul li {
+        margin: -30px 15px 30px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    div {
+      width: 60%;
+    }
+ 
+    h3 {
+      background-color: #772014;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+
+    nav ul li {
+        margin: -30px 5px 30px;
+        font-size: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    div {
+      width: 80%;
+    }
+
+    h3 {
+      background-color: #8ac4ff;
+    }
+  }
 
