@@ -11,4 +11,6 @@ To introduce myself, I first presented my name and photo at the top of my page. 
 
 Link: jmkuhn11.github.io/Work-Portfolio-Ch2/
 
-Screenshots: 
+Screenshots: <img width="942" alt="Ch2-Pic1" src="https://user-images.githubusercontent.com/122703273/214760714-ed327085-82c6-4116-8c7d-fcded854c730.PNG">
+<img width="915" alt="Ch2-Pic2" src="https://user-images.githubusercontent.com/122703273/214760738-829215ff-f564-4acd-b9d9-9dbb43bb7e2b.PNG">
+
