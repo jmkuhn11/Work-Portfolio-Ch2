@@ -8,3 +8,5 @@ NA
 
 ##Usage
 To introduce myself, I first presented my name and photo at the top of my page. I then included three seperate sections: About me, Work, and Contact me (all accessible through a navigation bar). The "About me" detailed my history with coding on a personal level. "Work" had multiple links to various programs I had been the head of creating. And "Contact Me" listed the contact information needed to reach out with any further inquiries, along with my linked Github account for any further proof of work.
+
+Link 
